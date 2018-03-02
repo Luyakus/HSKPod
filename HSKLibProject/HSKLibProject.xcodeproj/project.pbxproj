@@ -13,18 +13,37 @@
 		22DCEFE02048FDD00073ADD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22DCEFDF2048FDD00073ADD3 /* Assets.xcassets */; };
 		22DCEFE32048FDD00073ADD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22DCEFE12048FDD00073ADD3 /* LaunchScreen.storyboard */; };
 		22DCEFE62048FDD00073ADD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DCEFE52048FDD00073ADD3 /* main.m */; };
-		22DCEFF02048FDD00073ADD3 /* HSKLibProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DCEFEF2048FDD00073ADD3 /* HSKLibProjectUITests.m */; };
+		22DCF004204901FA0073ADD3 /* HSKLibOne.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DCF002204901FA0073ADD3 /* HSKLibOne.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22DCF007204901FA0073ADD3 /* HSKLibOne.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22DCF000204901FA0073ADD3 /* HSKLibOne.framework */; };
+		22DCF008204901FA0073ADD3 /* HSKLibOne.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22DCF000204901FA0073ADD3 /* HSKLibOne.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		22DCF00F204902F80073ADD3 /* HSKFirstLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DCF00D204902F80073ADD3 /* HSKFirstLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22DCF010204902F80073ADD3 /* HSKFirstLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DCF00E204902F80073ADD3 /* HSKFirstLib.m */; };
+		22DCF013204922910073ADD3 /* HSKLibOne.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 22DCF012204922910073ADD3 /* HSKLibOne.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		22DCEFEC2048FDD00073ADD3 /* PBXContainerItemProxy */ = {
+		22DCF005204901FA0073ADD3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 22DCEFCB2048FDD00073ADD3 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 22DCEFD22048FDD00073ADD3;
-			remoteInfo = HSKLibProject;
+			remoteGlobalIDString = 22DCEFFF204901FA0073ADD3;
+			remoteInfo = HSKLibOne;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		22DCF00C204901FA0073ADD3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				22DCF008204901FA0073ADD3 /* HSKLibOne.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		22DCEFD32048FDD00073ADD3 /* HSKLibProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HSKLibProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,9 +56,12 @@
 		22DCEFE22048FDD00073ADD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22DCEFE42048FDD00073ADD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22DCEFE52048FDD00073ADD3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		22DCEFEB2048FDD00073ADD3 /* HSKLibProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HSKLibProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		22DCEFEF2048FDD00073ADD3 /* HSKLibProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSKLibProjectUITests.m; sourceTree = "<group>"; };
-		22DCEFF12048FDD00073ADD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22DCF000204901FA0073ADD3 /* HSKLibOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HSKLibOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22DCF002204901FA0073ADD3 /* HSKLibOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSKLibOne.h; sourceTree = "<group>"; };
+		22DCF003204901FA0073ADD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22DCF00D204902F80073ADD3 /* HSKFirstLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSKFirstLib.h; sourceTree = "<group>"; };
+		22DCF00E204902F80073ADD3 /* HSKFirstLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSKFirstLib.m; sourceTree = "<group>"; };
+		22DCF012204922910073ADD3 /* HSKLibOne.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HSKLibOne.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,10 +69,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22DCF007204901FA0073ADD3 /* HSKLibOne.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		22DCEFE82048FDD00073ADD3 /* Frameworks */ = {
+		22DCEFFC204901FA0073ADD3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -63,8 +86,9 @@
 		22DCEFCA2048FDD00073ADD3 = {
 			isa = PBXGroup;
 			children = (
+				22DCF012204922910073ADD3 /* HSKLibOne.podspec */,
 				22DCEFD52048FDD00073ADD3 /* HSKLibProject */,
-				22DCEFEE2048FDD00073ADD3 /* HSKLibProjectUITests */,
+				22DCF001204901FA0073ADD3 /* HSKLibOne */,
 				22DCEFD42048FDD00073ADD3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				22DCEFD32048FDD00073ADD3 /* HSKLibProject.app */,
-				22DCEFEB2048FDD00073ADD3 /* HSKLibProjectUITests.xctest */,
+				22DCF000204901FA0073ADD3 /* HSKLibOne.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,16 +118,30 @@
 			path = HSKLibProject;
 			sourceTree = "<group>";
 		};
-		22DCEFEE2048FDD00073ADD3 /* HSKLibProjectUITests */ = {
+		22DCF001204901FA0073ADD3 /* HSKLibOne */ = {
 			isa = PBXGroup;
 			children = (
-				22DCEFEF2048FDD00073ADD3 /* HSKLibProjectUITests.m */,
-				22DCEFF12048FDD00073ADD3 /* Info.plist */,
+				22DCF002204901FA0073ADD3 /* HSKLibOne.h */,
+				22DCF00D204902F80073ADD3 /* HSKFirstLib.h */,
+				22DCF00E204902F80073ADD3 /* HSKFirstLib.m */,
+				22DCF003204901FA0073ADD3 /* Info.plist */,
 			);
-			path = HSKLibProjectUITests;
+			path = HSKLibOne;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		22DCEFFD204901FA0073ADD3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22DCF00F204902F80073ADD3 /* HSKFirstLib.h in Headers */,
+				22DCF004204901FA0073ADD3 /* HSKLibOne.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		22DCEFD22048FDD00073ADD3 /* HSKLibProject */ = {
@@ -113,33 +151,35 @@
 				22DCEFCF2048FDD00073ADD3 /* Sources */,
 				22DCEFD02048FDD00073ADD3 /* Frameworks */,
 				22DCEFD12048FDD00073ADD3 /* Resources */,
+				22DCF00C204901FA0073ADD3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				22DCF006204901FA0073ADD3 /* PBXTargetDependency */,
 			);
 			name = HSKLibProject;
 			productName = HSKLibProject;
 			productReference = 22DCEFD32048FDD00073ADD3 /* HSKLibProject.app */;
 			productType = "com.apple.product-type.application";
 		};
-		22DCEFEA2048FDD00073ADD3 /* HSKLibProjectUITests */ = {
+		22DCEFFF204901FA0073ADD3 /* HSKLibOne */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 22DCEFF72048FDD00073ADD3 /* Build configuration list for PBXNativeTarget "HSKLibProjectUITests" */;
+			buildConfigurationList = 22DCF009204901FA0073ADD3 /* Build configuration list for PBXNativeTarget "HSKLibOne" */;
 			buildPhases = (
-				22DCEFE72048FDD00073ADD3 /* Sources */,
-				22DCEFE82048FDD00073ADD3 /* Frameworks */,
-				22DCEFE92048FDD00073ADD3 /* Resources */,
+				22DCEFFB204901FA0073ADD3 /* Sources */,
+				22DCEFFC204901FA0073ADD3 /* Frameworks */,
+				22DCEFFD204901FA0073ADD3 /* Headers */,
+				22DCEFFE204901FA0073ADD3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				22DCEFED2048FDD00073ADD3 /* PBXTargetDependency */,
 			);
-			name = HSKLibProjectUITests;
-			productName = HSKLibProjectUITests;
-			productReference = 22DCEFEB2048FDD00073ADD3 /* HSKLibProjectUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
+			name = HSKLibOne;
+			productName = HSKLibOne;
+			productReference = 22DCF000204901FA0073ADD3 /* HSKLibOne.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -154,10 +194,9 @@
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
-					22DCEFEA2048FDD00073ADD3 = {
+					22DCEFFF204901FA0073ADD3 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 22DCEFD22048FDD00073ADD3;
 					};
 				};
 			};
@@ -175,7 +214,7 @@
 			projectRoot = "";
 			targets = (
 				22DCEFD22048FDD00073ADD3 /* HSKLibProject */,
-				22DCEFEA2048FDD00073ADD3 /* HSKLibProjectUITests */,
+				22DCEFFF204901FA0073ADD3 /* HSKLibOne */,
 			);
 		};
 /* End PBXProject section */
@@ -191,10 +230,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		22DCEFE92048FDD00073ADD3 /* Resources */ = {
+		22DCEFFE204901FA0073ADD3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22DCF013204922910073ADD3 /* HSKLibOne.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,21 +251,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		22DCEFE72048FDD00073ADD3 /* Sources */ = {
+		22DCEFFB204901FA0073ADD3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22DCEFF02048FDD00073ADD3 /* HSKLibProjectUITests.m in Sources */,
+				22DCF010204902F80073ADD3 /* HSKFirstLib.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		22DCEFED2048FDD00073ADD3 /* PBXTargetDependency */ = {
+		22DCF006204901FA0073ADD3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 22DCEFD22048FDD00073ADD3 /* HSKLibProject */;
-			targetProxy = 22DCEFEC2048FDD00073ADD3 /* PBXContainerItemProxy */;
+			target = 22DCEFFF204901FA0073ADD3 /* HSKLibOne */;
+			targetProxy = 22DCF005204901FA0073ADD3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -379,29 +419,47 @@
 			};
 			name = Release;
 		};
-		22DCEFF82048FDD00073ADD3 /* Debug */ = {
+		22DCF00A204901FA0073ADD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HSKLibProjectUITests/Info.plist;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HSKLibOne/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sam.www.HSKLibProjectUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sam.www.HSKLibOne;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = HSKLibProject;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		22DCEFF92048FDD00073ADD3 /* Release */ = {
+		22DCF00B204901FA0073ADD3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HSKLibProjectUITests/Info.plist;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HSKLibOne/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sam.www.HSKLibProjectUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sam.www.HSKLibOne;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = HSKLibProject;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -426,11 +484,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		22DCEFF72048FDD00073ADD3 /* Build configuration list for PBXNativeTarget "HSKLibProjectUITests" */ = {
+		22DCF009204901FA0073ADD3 /* Build configuration list for PBXNativeTarget "HSKLibOne" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				22DCEFF82048FDD00073ADD3 /* Debug */,
-				22DCEFF92048FDD00073ADD3 /* Release */,
+				22DCF00A204901FA0073ADD3 /* Debug */,
+				22DCF00B204901FA0073ADD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
