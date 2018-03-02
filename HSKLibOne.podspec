@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.source       = { :git => "http://EXAMPLE/HSKLibOne.git", :tag => "#{s.version}" }
 
-  s.source_files = "HSKLibProject/HSKLibOne", "HSKLibProject/HSKLibOne/**/*.{h,m}"
-  s.public_header_files = "HSKLibProject/HSKLibOne/HSKLibOne.h", "HSKLibProject/HSKLibOne/HSKFirstLib.h"
+  s.source_files = "HSKLibOne", "HSKLibOne/**/*.{h,m}"
+  s.public_header_files = "HSKLibOne/HSKLibOne.h", "HSKLibOne/HSKFirstLib.h"
 end
