@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		493D0C82FC459272BB02A52BBB06BCD4 /* HSKLibOne.h in Headers */ = {isa = PBXBuildFile; fileRef = 831D497AB6AEE3E96C8B6B35C782121C /* HSKLibOne.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68536B5BD7E27183DAC8B6AD42E4AFA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6DA3861E31F8FC95D4846FBC306FB457 /* HSKLibOne-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 616B98559823ABB2D23DBFF1915C35B6 /* HSKLibOne-dummy.m */; };
+		8D73F951615297980D740611B34C72BC /* Pods-HSKShellProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDFA647AA13EC63652B78C69434A684 /* Pods-HSKShellProject-dummy.m */; };
+		984872540DC029AE1090D52A2420BF1A /* HSKFirstLib.h in Headers */ = {isa = PBXBuildFile; fileRef = A6B8C027B087662CA67888839B48E47E /* HSKFirstLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8CEDA0CC8D219EF35840CB7EF2A0D2B /* HSKFirstLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE94CA280F332675D229A25A8ECCEDA /* HSKFirstLib.m */; };
+		CA93CEBD7EB341850A806AB8310C6E8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E40158D3F91C2F41EE93F58FACF130EA /* HSKLibOne-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B33B3469253D3C11E04DAABBEDA1CD3C /* HSKLibOne-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1B3C95CBDE3DEA89B5DE7B69E18FE64 /* Pods-HSKShellProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76B86FF5E56173BDACDEC2F251684ADC /* Pods-HSKShellProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F24BC5B45A4267F952A6664BC0E79905 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03D6E97552AD2EAB2DC81978DDFDA85B;
+			remoteInfo = HSKLibOne;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		357EED846E59740EF115CF4941D18DF3 /* Pods_HSKShellProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HSKShellProject.framework; path = "Pods-HSKShellProject.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FDFA647AA13EC63652B78C69434A684 /* Pods-HSKShellProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HSKShellProject-dummy.m"; sourceTree = "<group>"; };
+		48BFF72A5A5C3528155E8CC6BCB04C53 /* Pods-HSKShellProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HSKShellProject-frameworks.sh"; sourceTree = "<group>"; };
+		616B98559823ABB2D23DBFF1915C35B6 /* HSKLibOne-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HSKLibOne-dummy.m"; sourceTree = "<group>"; };
+		65A8317062685E9491F96E865669E35D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65B56C67309E3828A843C9F8ED79D2D5 /* Pods-HSKShellProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HSKShellProject-acknowledgements.plist"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6CFFF37988303E4C8A835A05858BEFC1 /* Pods-HSKShellProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HSKShellProject.debug.xcconfig"; sourceTree = "<group>"; };
+		6FE94CA280F332675D229A25A8ECCEDA /* HSKFirstLib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HSKFirstLib.m; path = HSKLibProject/HSKLibOne/HSKFirstLib.m; sourceTree = "<group>"; };
+		76B86FF5E56173BDACDEC2F251684ADC /* Pods-HSKShellProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HSKShellProject-umbrella.h"; sourceTree = "<group>"; };
+		821BA1522DA6125735B8FC7F3160BB97 /* HSKLibOne.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HSKLibOne.xcconfig; sourceTree = "<group>"; };
+		831D497AB6AEE3E96C8B6B35C782121C /* HSKLibOne.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HSKLibOne.h; path = HSKLibProject/HSKLibOne/HSKLibOne.h; sourceTree = "<group>"; };
+		915303C0122EA8FD2341498ACFFE7AD6 /* HSKLibOne-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HSKLibOne-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6B8C027B087662CA67888839B48E47E /* HSKFirstLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HSKFirstLib.h; path = HSKLibProject/HSKLibOne/HSKFirstLib.h; sourceTree = "<group>"; };
+		A8A07ACCC8AF7BB2C2EA1017DBA5E252 /* Pods-HSKShellProject-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HSKShellProject-resources.sh"; sourceTree = "<group>"; };
+		AFFE4A1F07C3CBE04415E24ECCC0B446 /* HSKLibOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HSKLibOne.framework; path = HSKLibOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B33B3469253D3C11E04DAABBEDA1CD3C /* HSKLibOne-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HSKLibOne-umbrella.h"; sourceTree = "<group>"; };
+		BE18162D5119F6FBB72D1C657FC2FF8F /* Pods-HSKShellProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HSKShellProject-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BEAD7A42913D88F1C8892FFF904C529D /* Pods-HSKShellProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HSKShellProject.release.xcconfig"; sourceTree = "<group>"; };
+		C59D1A9946647952753D6736D68C49D7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0ADBABFA621FCE4856CB8C790D199FD /* HSKLibOne.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HSKLibOne.modulemap; sourceTree = "<group>"; };
+		FC365BE1C836BF7D1E290C34F282CD17 /* Pods-HSKShellProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HSKShellProject.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68FD34DAFAB564BBBA0F48CDF394C3B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA93CEBD7EB341850A806AB8310C6E8A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C26DC258BC58E13020A9F567539D4900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68536B5BD7E27183DAC8B6AD42E4AFA5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3027AB0C925D64DFE1BDC10849B43CD5 /* HSKLibOne */ = {
+			isa = PBXGroup;
+			children = (
+				A6B8C027B087662CA67888839B48E47E /* HSKFirstLib.h */,
+				6FE94CA280F332675D229A25A8ECCEDA /* HSKFirstLib.m */,
+				831D497AB6AEE3E96C8B6B35C782121C /* HSKLibOne.h */,
+				3C98C5BCAAD0744F4B08227949139CFB /* Support Files */,
+			);
+			name = HSKLibOne;
+			path = HSKLibOne;
+			sourceTree = "<group>";
+		};
+		33BD469002A43BC84D8708B2D8581126 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFFE4A1F07C3CBE04415E24ECCC0B446 /* HSKLibOne.framework */,
+				357EED846E59740EF115CF4941D18DF3 /* Pods_HSKShellProject.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C98C5BCAAD0744F4B08227949139CFB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0ADBABFA621FCE4856CB8C790D199FD /* HSKLibOne.modulemap */,
+				821BA1522DA6125735B8FC7F3160BB97 /* HSKLibOne.xcconfig */,
+				616B98559823ABB2D23DBFF1915C35B6 /* HSKLibOne-dummy.m */,
+				915303C0122EA8FD2341498ACFFE7AD6 /* HSKLibOne-prefix.pch */,
+				B33B3469253D3C11E04DAABBEDA1CD3C /* HSKLibOne-umbrella.h */,
+				C59D1A9946647952753D6736D68C49D7 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HSKLibOne";
+			sourceTree = "<group>";
+		};
+		4DF7F91A323948FB757E1B87468D1A1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3027AB0C925D64DFE1BDC10849B43CD5 /* HSKLibOne */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4DF7F91A323948FB757E1B87468D1A1B /* Pods */,
+				33BD469002A43BC84D8708B2D8581126 /* Products */,
+				B80E56EA725591DA41147B23F2B7E89F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B80E56EA725591DA41147B23F2B7E89F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6DE192792845D398D1A8A64B7436A70 /* Pods-HSKShellProject */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E6DE192792845D398D1A8A64B7436A70 /* Pods-HSKShellProject */ = {
+			isa = PBXGroup;
+			children = (
+				65A8317062685E9491F96E865669E35D /* Info.plist */,
+				FC365BE1C836BF7D1E290C34F282CD17 /* Pods-HSKShellProject.modulemap */,
+				BE18162D5119F6FBB72D1C657FC2FF8F /* Pods-HSKShellProject-acknowledgements.markdown */,
+				65B56C67309E3828A843C9F8ED79D2D5 /* Pods-HSKShellProject-acknowledgements.plist */,
+				3FDFA647AA13EC63652B78C69434A684 /* Pods-HSKShellProject-dummy.m */,
+				48BFF72A5A5C3528155E8CC6BCB04C53 /* Pods-HSKShellProject-frameworks.sh */,
+				A8A07ACCC8AF7BB2C2EA1017DBA5E252 /* Pods-HSKShellProject-resources.sh */,
+				76B86FF5E56173BDACDEC2F251684ADC /* Pods-HSKShellProject-umbrella.h */,
+				6CFFF37988303E4C8A835A05858BEFC1 /* Pods-HSKShellProject.debug.xcconfig */,
+				BEAD7A42913D88F1C8892FFF904C529D /* Pods-HSKShellProject.release.xcconfig */,
+			);
+			name = "Pods-HSKShellProject";
+			path = "Target Support Files/Pods-HSKShellProject";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4E2E28353540C7FDAC9DD23698FBB302 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1B3C95CBDE3DEA89B5DE7B69E18FE64 /* Pods-HSKShellProject-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD9201A1C6CE31BD30B9F8838C7CF34D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				984872540DC029AE1090D52A2420BF1A /* HSKFirstLib.h in Headers */,
+				E40158D3F91C2F41EE93F58FACF130EA /* HSKLibOne-umbrella.h in Headers */,
+				493D0C82FC459272BB02A52BBB06BCD4 /* HSKLibOne.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		03D6E97552AD2EAB2DC81978DDFDA85B /* HSKLibOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A6C942E34C86F724D8DE82DD26793C4 /* Build configuration list for PBXNativeTarget "HSKLibOne" */;
+			buildPhases = (
+				909115249222DBCAE9A379418B4D13E2 /* Sources */,
+				68FD34DAFAB564BBBA0F48CDF394C3B9 /* Frameworks */,
+				FD9201A1C6CE31BD30B9F8838C7CF34D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HSKLibOne;
+			productName = HSKLibOne;
+			productReference = AFFE4A1F07C3CBE04415E24ECCC0B446 /* HSKLibOne.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B9B3DE62BB2176A8D76973177E0FECD /* Pods-HSKShellProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2137027ED343D2DBA9E6C95FEC5E26CC /* Build configuration list for PBXNativeTarget "Pods-HSKShellProject" */;
+			buildPhases = (
+				BBF06899F179BFCA5639252C598FE0A1 /* Sources */,
+				C26DC258BC58E13020A9F567539D4900 /* Frameworks */,
+				4E2E28353540C7FDAC9DD23698FBB302 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3440DC3C65E27CCA93D1D3F6C9BBDB11 /* PBXTargetDependency */,
+			);
+			name = "Pods-HSKShellProject";
+			productName = "Pods-HSKShellProject";
+			productReference = 357EED846E59740EF115CF4941D18DF3 /* Pods_HSKShellProject.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 33BD469002A43BC84D8708B2D8581126 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03D6E97552AD2EAB2DC81978DDFDA85B /* HSKLibOne */,
+				9B9B3DE62BB2176A8D76973177E0FECD /* Pods-HSKShellProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		909115249222DBCAE9A379418B4D13E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8CEDA0CC8D219EF35840CB7EF2A0D2B /* HSKFirstLib.m in Sources */,
+				6DA3861E31F8FC95D4846FBC306FB457 /* HSKLibOne-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBF06899F179BFCA5639252C598FE0A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D73F951615297980D740611B34C72BC /* Pods-HSKShellProject-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3440DC3C65E27CCA93D1D3F6C9BBDB11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HSKLibOne;
+			target = 03D6E97552AD2EAB2DC81978DDFDA85B /* HSKLibOne */;
+			targetProxy = F24BC5B45A4267F952A6664BC0E79905 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0024358CFC1B1394B6EC7C93C26DABE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 821BA1522DA6125735B8FC7F3160BB97 /* HSKLibOne.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HSKLibOne/HSKLibOne-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HSKLibOne/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HSKLibOne/HSKLibOne.modulemap";
+				PRODUCT_NAME = HSKLibOne;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		64123F7B4130BD4461622284CD31683D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEAD7A42913D88F1C8892FFF904C529D /* Pods-HSKShellProject.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HSKShellProject/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HSKShellProject/Pods-HSKShellProject.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HSKShellProject;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AA6B05044DED5CA3E66899AFE65FEAE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CFFF37988303E4C8A835A05858BEFC1 /* Pods-HSKShellProject.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HSKShellProject/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HSKShellProject/Pods-HSKShellProject.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HSKShellProject;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D061F26293F7E9C69036CAD58ACF240F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 821BA1522DA6125735B8FC7F3160BB97 /* HSKLibOne.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HSKLibOne/HSKLibOne-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HSKLibOne/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HSKLibOne/HSKLibOne.modulemap";
+				PRODUCT_NAME = HSKLibOne;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2137027ED343D2DBA9E6C95FEC5E26CC /* Build configuration list for PBXNativeTarget "Pods-HSKShellProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6B05044DED5CA3E66899AFE65FEAE7 /* Debug */,
+				64123F7B4130BD4461622284CD31683D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A6C942E34C86F724D8DE82DD26793C4 /* Build configuration list for PBXNativeTarget "HSKLibOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D061F26293F7E9C69036CAD58ACF240F /* Debug */,
+				0024358CFC1B1394B6EC7C93C26DABE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */,
+				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

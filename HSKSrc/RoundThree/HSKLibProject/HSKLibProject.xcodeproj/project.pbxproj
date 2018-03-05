@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2261C9382047DEFB009E405B /* HSKLibProject.h in Headers */ = {isa = PBXBuildFile; fileRef = 2261C92A2047DEFB009E405B /* HSKLibProject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2261C9562047DF24009E405B /* HSKLibTwoProject.h in Headers */ = {isa = PBXBuildFile; fileRef = 2261C9482047DF24009E405B /* HSKLibTwoProject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2261C9662047DF43009E405B /* HSKLibPodProject.h in Headers */ = {isa = PBXBuildFile; fileRef = 2261C9642047DF43009E405B /* HSKLibPodProject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2261C96C2047DF58009E405B /* HSKLibOne.h in Headers */ = {isa = PBXBuildFile; fileRef = 2261C96A2047DF58009E405B /* HSKLibOne.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2261C96D2047DF58009E405B /* HSKLibOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 2261C96B2047DF58009E405B /* HSKLibOne.m */; };
+		2261C9702047DF6A009E405B /* HSKLibTwo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2261C96E2047DF6A009E405B /* HSKLibTwo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2261C9712047DF6A009E405B /* HSKLibTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2261C96F2047DF6A009E405B /* HSKLibTwo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2261C9722047DFC3009E405B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2261C91E2047DEFB009E405B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2261C9262047DEFB009E405B;
+			remoteInfo = HSKLibProject;
+		};
+		2261C9742047DFC3009E405B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2261C91E2047DEFB009E405B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2261C9452047DF24009E405B;
+			remoteInfo = HSKLibTwoProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2261C9272047DEFB009E405B /* HSKLibProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HSKLibProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2261C92A2047DEFB009E405B /* HSKLibProject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSKLibProject.h; sourceTree = "<group>"; };
+		2261C92B2047DEFB009E405B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2261C9462047DF24009E405B /* HSKLibTwoProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HSKLibTwoProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2261C9482047DF24009E405B /* HSKLibTwoProject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSKLibTwoProject.h; sourceTree = "<group>"; };
+		2261C9492047DF24009E405B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2261C9622047DF43009E405B /* HSKLibPodProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HSKLibPodProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2261C9642047DF43009E405B /* HSKLibPodProject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSKLibPodProject.h; sourceTree = "<group>"; };
+		2261C9652047DF43009E405B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2261C96A2047DF58009E405B /* HSKLibOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSKLibOne.h; sourceTree = "<group>"; };
+		2261C96B2047DF58009E405B /* HSKLibOne.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSKLibOne.m; sourceTree = "<group>"; };
+		2261C96E2047DF6A009E405B /* HSKLibTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSKLibTwo.h; sourceTree = "<group>"; };
+		2261C96F2047DF6A009E405B /* HSKLibTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSKLibTwo.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2261C9232047DEFB009E405B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2261C9422047DF24009E405B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2261C95E2047DF43009E405B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2261C91D2047DEFB009E405B = {
+			isa = PBXGroup;
+			children = (
+				2261C9292047DEFB009E405B /* HSKLibProject */,
+				2261C9472047DF24009E405B /* HSKLibTwoProject */,
+				2261C9632047DF43009E405B /* HSKLibPodProject */,
+				2261C9282047DEFB009E405B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2261C9282047DEFB009E405B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2261C9272047DEFB009E405B /* HSKLibProject.framework */,
+				2261C9462047DF24009E405B /* HSKLibTwoProject.framework */,
+				2261C9622047DF43009E405B /* HSKLibPodProject.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2261C9292047DEFB009E405B /* HSKLibProject */ = {
+			isa = PBXGroup;
+			children = (
+				2261C92A2047DEFB009E405B /* HSKLibProject.h */,
+				2261C96A2047DF58009E405B /* HSKLibOne.h */,
+				2261C96B2047DF58009E405B /* HSKLibOne.m */,
+				2261C92B2047DEFB009E405B /* Info.plist */,
+			);
+			path = HSKLibProject;
+			sourceTree = "<group>";
+		};
+		2261C9472047DF24009E405B /* HSKLibTwoProject */ = {
+			isa = PBXGroup;
+			children = (
+				2261C9482047DF24009E405B /* HSKLibTwoProject.h */,
+				2261C96E2047DF6A009E405B /* HSKLibTwo.h */,
+				2261C96F2047DF6A009E405B /* HSKLibTwo.m */,
+				2261C9492047DF24009E405B /* Info.plist */,
+			);
+			path = HSKLibTwoProject;
+			sourceTree = "<group>";
+		};
+		2261C9632047DF43009E405B /* HSKLibPodProject */ = {
+			isa = PBXGroup;
+			children = (
+				2261C9642047DF43009E405B /* HSKLibPodProject.h */,
+				2261C9652047DF43009E405B /* Info.plist */,
+			);
+			path = HSKLibPodProject;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2261C9242047DEFB009E405B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2261C96C2047DF58009E405B /* HSKLibOne.h in Headers */,
+				2261C9382047DEFB009E405B /* HSKLibProject.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2261C9432047DF24009E405B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2261C9702047DF6A009E405B /* HSKLibTwo.h in Headers */,
+				2261C9562047DF24009E405B /* HSKLibTwoProject.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2261C95F2047DF43009E405B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2261C9662047DF43009E405B /* HSKLibPodProject.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2261C9262047DEFB009E405B /* HSKLibProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2261C93B2047DEFB009E405B /* Build configuration list for PBXNativeTarget "HSKLibProject" */;
+			buildPhases = (
+				2261C9222047DEFB009E405B /* Sources */,
+				2261C9232047DEFB009E405B /* Frameworks */,
+				2261C9242047DEFB009E405B /* Headers */,
+				2261C9252047DEFB009E405B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HSKLibProject;
+			productName = HSKLibProject;
+			productReference = 2261C9272047DEFB009E405B /* HSKLibProject.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2261C9452047DF24009E405B /* HSKLibTwoProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2261C9572047DF24009E405B /* Build configuration list for PBXNativeTarget "HSKLibTwoProject" */;
+			buildPhases = (
+				2261C9412047DF24009E405B /* Sources */,
+				2261C9422047DF24009E405B /* Frameworks */,
+				2261C9432047DF24009E405B /* Headers */,
+				2261C9442047DF24009E405B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HSKLibTwoProject;
+			productName = HSKLibTwoProject;
+			productReference = 2261C9462047DF24009E405B /* HSKLibTwoProject.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2261C9612047DF43009E405B /* HSKLibPodProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2261C9672047DF43009E405B /* Build configuration list for PBXNativeTarget "HSKLibPodProject" */;
+			buildPhases = (
+				2261C95D2047DF43009E405B /* Sources */,
+				2261C95E2047DF43009E405B /* Frameworks */,
+				2261C95F2047DF43009E405B /* Headers */,
+				2261C9602047DF43009E405B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2261C9732047DFC3009E405B /* PBXTargetDependency */,
+				2261C9752047DFC3009E405B /* PBXTargetDependency */,
+			);
+			name = HSKLibPodProject;
+			productName = HSKLibPodProject;
+			productReference = 2261C9622047DF43009E405B /* HSKLibPodProject.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2261C91E2047DEFB009E405B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Sam;
+				TargetAttributes = {
+					2261C9262047DEFB009E405B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					2261C9452047DF24009E405B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					2261C9612047DF43009E405B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2261C9212047DEFB009E405B /* Build configuration list for PBXProject "HSKLibProject" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2261C91D2047DEFB009E405B;
+			productRefGroup = 2261C9282047DEFB009E405B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2261C9262047DEFB009E405B /* HSKLibProject */,
+				2261C9452047DF24009E405B /* HSKLibTwoProject */,
+				2261C9612047DF43009E405B /* HSKLibPodProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2261C9252047DEFB009E405B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2261C9442047DF24009E405B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2261C9602047DF43009E405B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2261C9222047DEFB009E405B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2261C96D2047DF58009E405B /* HSKLibOne.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2261C9412047DF24009E405B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2261C9712047DF6A009E405B /* HSKLibTwo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2261C95D2047DF43009E405B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2261C9732047DFC3009E405B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2261C9262047DEFB009E405B /* HSKLibProject */;
+			targetProxy = 2261C9722047DFC3009E405B /* PBXContainerItemProxy */;
+		};
+		2261C9752047DFC3009E405B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2261C9452047DF24009E405B /* HSKLibTwoProject */;
+			targetProxy = 2261C9742047DFC3009E405B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2261C9392047DEFB009E405B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2261C93A2047DEFB009E405B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2261C93C2047DEFB009E405B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HSKLibProject/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sam.www.HSKLibProject;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2261C93D2047DEFB009E405B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HSKLibProject/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sam.www.HSKLibProject;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2261C9582047DF24009E405B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HSKLibTwoProject/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sam.www.HSKLibTwoProject;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2261C9592047DF24009E405B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HSKLibTwoProject/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sam.www.HSKLibTwoProject;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2261C9682047DF43009E405B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HSKLibPodProject/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sam.www.HSKLibPodProject;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2261C9692047DF43009E405B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HSKLibPodProject/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sam.www.HSKLibPodProject;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2261C9212047DEFB009E405B /* Build configuration list for PBXProject "HSKLibProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2261C9392047DEFB009E405B /* Debug */,
+				2261C93A2047DEFB009E405B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2261C93B2047DEFB009E405B /* Build configuration list for PBXNativeTarget "HSKLibProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2261C93C2047DEFB009E405B /* Debug */,
+				2261C93D2047DEFB009E405B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2261C9572047DF24009E405B /* Build configuration list for PBXNativeTarget "HSKLibTwoProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2261C9582047DF24009E405B /* Debug */,
+				2261C9592047DF24009E405B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2261C9672047DF43009E405B /* Build configuration list for PBXNativeTarget "HSKLibPodProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2261C9682047DF43009E405B /* Debug */,
+				2261C9692047DF43009E405B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2261C91E2047DEFB009E405B /* Project object */;
+}

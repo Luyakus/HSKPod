@@ -1,0 +1,6 @@
+framework module HSKLibOne {
+  umbrella header "HSKLibOne-umbrella.h"
+
+  export *
+  module * { export * }
+}

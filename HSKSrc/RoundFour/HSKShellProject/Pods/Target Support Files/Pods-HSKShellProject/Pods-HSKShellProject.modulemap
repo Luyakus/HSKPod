@@ -1,0 +1,6 @@
+framework module Pods_HSKShellProject {
+  umbrella header "Pods-HSKShellProject-umbrella.h"
+
+  export *
+  module * { export * }
+}
